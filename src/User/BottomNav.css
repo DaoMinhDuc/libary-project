@@ -1,0 +1,12 @@
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    z-index: 999;
+}
+
+.Mui-selected {
+    color: #509dd1;
+}

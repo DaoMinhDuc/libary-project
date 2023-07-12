@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.sign-up {
+    display: flex;
+}
+
+.sign-in {
+    background-color: #509dd1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.sign-in:hover {
+    opacity: 0.8;
+}
+
+.dropbtn {
+    background-color: #509dd1;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.dropdown p {
+    margin-left: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+    top: 100%;
+    /* Hiển thị dropdown phía dưới phần tử cha */
+}
+
+.dropdown-content button {
+    background-color: #bebdbd00;
+    color: rgba(0, 0, 0, 0.452);
+    padding: 20px;
+    width: 130px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dropdown-content button:hover {
+    background-color: #6d6b6bab;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(34, 96, 211, 0.349)
+}
+
+.Header-button {
+    background-color: #bebdbd00;
+}
+
+.Header-button:hover {
+    background-color: #6d6b6bab;
+}
